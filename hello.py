@@ -2,6 +2,8 @@ from klein import run, route
 import redis
 import os
 
+# Testing collabration - from SJ
+
 # Start up a Redis instance
 r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
